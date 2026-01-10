@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 0 40rpx;
+  box-sizing: border-box;
+}
+
+.logo-icon {
+  margin-bottom: 40rpx;
+  color: #4a90e2; /* 改为蓝色，与登录按钮颜色区分开 */
+}
+
+.app-title {
+  font-size: 48rpx;
+  font-weight: bold;
+  margin-bottom: 80rpx; /* 减小与Logo之间的距离 */
+  text-align: center;
+  color: #333;
+}
+
+.wechat-login-btn {
+  width: 100%;
+  max-width: 600rpx;
+  margin-top: 60rpx; /* 减小登录按钮与标题的距离 */
+  border-radius: 44rpx;
+  height: 88rpx;
+  font-size: 32rpx;
+}
+
+.wechat-login-hover {
+  opacity: 0.8;
+}

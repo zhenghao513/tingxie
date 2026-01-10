@@ -1,0 +1,22 @@
+<!--pages/login/index.wxml-->
+<view class="container">
+  <!-- Logo -->
+  <t-icon name="edit" size="160rpx" class="logo-icon"></t-icon>
+  
+  <!-- 应用名称 -->
+  <view class="app-title">汉字听写学习系统</view>
+  
+  <!-- 微信登录按钮 -->
+  <t-button
+    class="wechat-login-btn"
+    hover-class="wechat-login-hover"
+    bind:tap="onWechatLogin"
+    icon="logo-wechat-stroke"
+    theme="primary"
+    size="large"
+    block="{{true}}"
+    style="background-color: #07c160; border: none;"
+    >
+    微信登录
+  </t-button>
+</view>
