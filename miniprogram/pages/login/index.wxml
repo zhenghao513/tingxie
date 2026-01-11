@@ -1,7 +1,7 @@
 <!--pages/login/index.wxml-->
 <view class="container">
   <!-- Logo -->
-  <t-icon name="edit" size="160rpx" class="logo-icon"></t-icon>
+  <image src="/images/logo.svg" class="logo-icon" mode="aspectFit"></image>
   
   <!-- 应用名称 -->
   <view class="app-title">汉字听写学习系统</view>

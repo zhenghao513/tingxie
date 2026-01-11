@@ -1,0 +1,29 @@
+<svg width="160" height="160" viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4a90e2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#357abd;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- 背景圆形 -->
+  <circle cx="80" cy="80" r="70" fill="url(#logoGradient)" opacity="0.1"/>
+  
+  <!-- 毛笔笔触 - 横 -->
+  <path d="M35 60 Q80 50 125 60 Q120 70 80 68 Q40 70 35 60" fill="url(#logoGradient)" opacity="0.9"/>
+  
+  <!-- 毛笔笔触 - 竖 -->
+  <path d="M75 35 Q85 80 80 125 Q70 120 72 80 Q70 40 75 35" fill="url(#logoGradient)" opacity="0.9"/>
+  
+  <!-- 毛笔笔触 - 撇 -->
+  <path d="M80 50 Q50 75 35 95 Q45 90 55 85 Q70 70 80 50" fill="url(#logoGradient)" opacity="0.85"/>
+  
+  <!-- 毛笔笔触 - 捺 -->
+  <path d="M80 50 Q105 70 125 95 Q115 90 105 85 Q90 70 80 50" fill="url(#logoGradient)" opacity="0.85"/>
+  
+  <!-- 点缀 - 小圆点 -->
+  <circle cx="80" cy="80" r="8" fill="url(#logoGradient)" opacity="0.3"/>
+  
+  <!-- 外圈装饰 -->
+  <circle cx="80" cy="80" r="65" fill="none" stroke="url(#logoGradient)" stroke-width="2" opacity="0.3" stroke-dasharray="8 4"/>
+</svg>

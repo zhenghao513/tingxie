@@ -9,8 +9,9 @@
 }
 
 .logo-icon {
+  width: 160rpx;
+  height: 160rpx;
   margin-bottom: 40rpx;
-  color: #4a90e2; /* 改为蓝色，与登录按钮颜色区分开 */
 }
 
 .app-title {
