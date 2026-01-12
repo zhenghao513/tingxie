@@ -1,2 +1,14 @@
-<!--pages/learning/index.wxml-->
-<text>pages/learning/index.wxml</text>
+<view class="container">
+  <view class="top">
+    <t-button theme="light" icon="sound" size="small" shape="round"></t-button>
+    <t-button theme="light" size="small" shape="round"> 1 / 10 </t-button>
+    <t-button theme="light" size="small" shape="round" content="交卷"></t-button>
+  </view>
+  <view class="middle">2</view>
+  <view class="bottom">
+    <t-button theme="light" icon="chevron-left-double" size="small" shape="round"></t-button>
+    <t-button theme="light" icon="delete" size="small" shape="round"></t-button>
+    <t-button theme="light" icon="rollback" size="small" shape="round"></t-button>
+    <t-button theme="light" icon="chevron-right-double" size="small" shape="round"></t-button>
+  </view>
+</view>

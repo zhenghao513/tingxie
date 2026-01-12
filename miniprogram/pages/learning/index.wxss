@@ -1,1 +1,29 @@
-/* pages/learning/index.wxss */
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 24px 12px;
+}
+
+.top {
+  flex: 2;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 16px;
+}
+
+.middle {
+  flex: 7;
+  width: 100%;
+}
+
+.bottom {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 16px;
+}

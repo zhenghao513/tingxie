@@ -1,6 +1,19 @@
 <view class="container">
   <image src="/images/background.png" class="background-img" mode="aspectFill"></image>
   <view class="content">
-    <t-button size="large" bindtap="learning">开始学习</t-button>
+    <t-button theme="primary" size="large" bindtap="learning">开始学习</t-button>
+
+    <view style="margin-top: 16rpx">
+      <t-button size="small" bindtap="showCascader">{{ note }}</t-button>
+    </view>
+
+    <t-cascader
+      visible="{{ visible }}"
+      value="{{ value }}"
+      options="{{ options }}"
+      title="请选择年级和单元"
+      bind:change="onChange"
+      bind:pick="onPick"
+    />
   </view>
 </view>
