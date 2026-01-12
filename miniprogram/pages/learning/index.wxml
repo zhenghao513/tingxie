@@ -4,7 +4,15 @@
     <t-button theme="light" size="small" shape="round"> 1 / 10 </t-button>
     <t-button theme="light" size="small" shape="round" content="交卷"></t-button>
   </view>
-  <view class="middle">2</view>
+  <view class="middle">
+    <view class="grid-container">
+      <view class="grid-cell vertical-dashed-line"></view>
+      <view class="grid-cell horizontal-dashed-line"></view>
+      <view class="grid-cell center-dot"></view>
+      <!-- Canvas element for handwriting input -->
+      <canvas class="canvas-container" canvas-id="writingCanvas" disable-scroll="true"></canvas>
+    </view>
+  </view>
   <view class="bottom">
     <t-button theme="light" icon="chevron-left-double" size="small" shape="round"></t-button>
     <t-button theme="light" icon="delete" size="small" shape="round"></t-button>

@@ -17,6 +17,61 @@
 .middle {
   flex: 7;
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-container {
+  position: relative;
+  width: 500rpx;
+  height: 500rpx;
+  border: 8rpx solid #3b5b4a; /* 墨绿色边框 */
+  background-color: #fff;
+}
+
+.grid-cell {
+  position: absolute;
+  box-sizing: border-box;
+}
+
+/* 垂直虚线 - 通过中心的竖线 */
+.vertical-dashed-line {
+  top: 0;
+  left: 50%;
+  width: 2rpx;
+  height: 100%;
+  border-left: 2rpx dashed #3b5b4a; /* 墨绿色虚线 */
+  transform: translateX(-50%);
+}
+
+/* 水平虚线 - 通过中心的横线 */
+.horizontal-dashed-line {
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 2rpx;
+  border-top: 2rpx dashed #3b5b4a; /* 墨绿色虚线 */
+  transform: translateY(-50%);
+}
+
+.center-dot {
+  top: 50%;
+  left: 50%;
+  width: 6rpx;
+  height: 6rpx;
+  background-color: #3b5b4a; /* 墨绿色 */
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.canvas-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
 }
 
 .bottom {
