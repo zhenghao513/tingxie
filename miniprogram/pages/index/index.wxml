@@ -1,6 +1,6 @@
 <view class="container">
   <image src="/images/background.png" class="background-img" mode="aspectFill"></image>
   <view class="content">
-    <t-button size="large">开始学习</t-button>
+    <t-button size="large" bindtap="learning">开始学习</t-button>
   </view>
 </view>

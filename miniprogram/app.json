@@ -3,7 +3,8 @@
     "pages/login/index",
     "pages/index/index",
     "pages/example/index",
-    "pages/my/index"
+    "pages/my/index",
+    "pages/learning/index"
   ],
   "tabBar": {
     "list": [
