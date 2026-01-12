@@ -51,7 +51,7 @@ Page({
               
               // 登录成功后跳转到首页或其他页面
               setTimeout(() => {
-                wx.reLaunch({
+                wx.switchTab({
                   url: '../index/index'
                 });
               }, 1500);

@@ -1,6 +1,7 @@
 {
-  "navigationBarTitleText": "基础能力",
   "usingComponents": {
-    "cloud-tip-modal": "/components/cloudTipModal/index"
-  }
+    "t-button": "/miniprogram_npm/tdesign-miniprogram/button/button",
+    "t-icon": "/miniprogram_npm/tdesign-miniprogram/icon/icon"
+  },
+  "navigationStyle": "custom"
 }
